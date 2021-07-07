@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@100;300;400&display=swap');
+
+:root {
+    green1: #002309;
+    green2: #568C5E;
+    gold1: #BF9926;
+    gold2: #D9C077
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.poppins100 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.poppins300 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.poppins400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.merry400 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.merry700 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    margin:0;
+    padding:0;
+}
+
+.link {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px 0px;
+    font-size: 15px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    border-color: #568C5E;
+}
+
+.active {
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: #568C5E;
+    border-width: 2px 0px;
+}
