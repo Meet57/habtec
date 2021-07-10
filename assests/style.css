@@ -4,7 +4,7 @@
     green1: #002309;
     green2: #568C5E;
     gold1: #BF9926;
-    gold2: #D9C077
+    gold2: #D9C077;
 }
 
 * {
@@ -40,7 +40,7 @@
 }
 
 .hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/bg.jpg);
     background-repeat: none;
     background-position: center;
     background-size: cover;
@@ -56,11 +56,11 @@ a{
     padding:0;
 }
 
-.link {
+.link , .nav-link{
     font-family: 'Merriweather', serif;
     font-weight: 400;
     text-decoration: none;
-    color: white;
+    color: white !important;
     transition: 0.5s;
     border-style: solid;
     border-color: transparent;
