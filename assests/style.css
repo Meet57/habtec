@@ -7,6 +7,22 @@
     gold2: #D9C077;
 }
 
+.green1 {
+    color: #002309;
+}
+
+.green2 {
+    color: #568c5e;
+}
+
+.gold1 {
+    color: #BF9926;
+}
+
+.gold2 {
+    color: #D9C077;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,16 +63,17 @@
     height: 100vh;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.row{
-    margin:0;
-    padding:0;
+.row {
+    margin: 0;
+    padding: 0;
 }
 
-.link , .nav-link{
+.link,
+.nav-link {
     font-family: 'Merriweather', serif;
     font-weight: 400;
     text-decoration: none;
@@ -80,4 +97,10 @@ a{
     border-style: solid;
     border-color: #568C5E;
     border-width: 2px 0px;
+}
+
+.aboutprofilebox{
+    background-color:#002309c2;
+    color: white;
+    border-left: 9px solid #ffbf00;
 }
