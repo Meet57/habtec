@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="./assests/style.css">
     <link rel="icon" href="./images/logo.jpg">
     <title>HABTEC TUBES</title>
+    <style>
+        input,
+        select,
+        textarea {
+            width: 100%;
+            color: black;
+            line-height: 44px;
+            border-radius: 0 !important;
+            border: 1px solid #dedede;
+            transition: all 0.5s ease-in-out;
+            box-shadow: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            margin-bottom: 30px;
+            outline: 0 !important;
+            padding: 6px 12px;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,7 +38,7 @@
             <div class="d-flex justify-content-evenly text-white merry400 p-3 p-md-5">
                 <a href="/" class="link p-2">Home</a>
                 <a href="about.html" class="link p-2">About Us</a>
-                <div class="link p-2">
+                <div class="link active p-2">
                     <a class="nav-link dropdown-toggle m-0 p-0" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Products
@@ -50,67 +67,191 @@
                 <a class="link p-2">Quality</a>
                 <a href="./process.html" class="link p-2">Process</a>
                 <a href="./packing.html" class="link p-2">Packing</a>
-                <a href="./inquiry.html" class="link active p-2">Inquiry</a>
+                <a href="./inquiry.html" class="link p-2">Inquiry</a>
                 <a class="link p-2">Contact Us</a>
             </div>
         </div>
         <div class="company container">
             <div class="row mt-3 p-5">
                 <span class="h2 text-white merry400 text-center my-3">
-                    Quick Inquiry Form
+                    Automobile Tubes
                 </span>
             </div>
         </div>
     </div>
 
     <div class="container py-5">
-        <div class="row"></div>
-        <form class="col-12 col-md-6 mx-auto" id="form">
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Name</label>
-                <input type="text" name="name" class="form-control">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="OurProducts">
+                    <div class="title merry400 h4 p-4">
+                        Our Products
+                    </div>
+                    <a href="#">
+                        <div class="productlist p-3 poppins400">
+                            CARBON STEEL COLD DRAWN SEAMLESS TUBES AND PIPES
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="productlist p-3 poppins400">
+                            BRIGHT ANNEALED TUBES
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="productlist p-3 poppins400">
+                            AUTOMOBILE TUBES
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="productlist p-3 poppins400">
+                            FUEL INJECTION TUBES
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="productlist p-3 poppins400">
+                            HYDRAULIC TUBES
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="productlist p-3 poppins400">
+                            PASSIVATED TUBES
+                        </div>
+                    </a>
+                </div>
+                <div class="OurProducts mt-5 pb-3">
+                    <div class="title merry400 h4 p-4">
+                        Quick Inquiry
+                    </div>
+                    <form>
+                        <input type="text" class="form-control mb-2" placeholder="Name" name="Name">
+                        <input type="text" class="form-control mb-2" placeholder="Email" name="Email">
+                        <input type="text" class="form-control mb-2" placeholder="Phone" name="Phone">
+                        <textarea type="text" rows="3" class="form-control mb-2" placeholder="Comment"
+                            name="Comment"></textarea>
+                        <select id="products" name="products">
+                            <option value="CARBON STEEL COLD DRAWN SEAMLESS TUBES AND PIPES">CARBON STEEL COLD DRAWN
+                                SEAMLESS TUBES AND PIPES</option>
+                            <option value="BRIGHT ANNEALED TUBES">BRIGHT ANNEALED TUBES</option>
+                            <option value="AUTOMOBILE TUBES">AUTOMOBILE TUBES</option>
+                            <option value="FUEL INJECTION TUBES">FUEL INJECTION TUBES</option>
+                            <option value="HYDRAULIC TUBES">HYDRAULIC TUBES</option>
+                            <option value="PASSIVATED TUBES">PASSIVATED TUBES</option>
+                        </select>
+                        <button class="btn btn-success w-100">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Address</label>
-                <input type="text" name="address" class="form-control">
+            <div class="col-12 col-md-9 pt-3 ps-5">
+                <div class="poppins600 h1 green1">
+                    Automobile Tubes
+                </div>
+                <br>
+                <p>
+                    Habtec Tubes offers high-quality hollow section profiles (square, rectangular, hexagonal, and other
+                    shapes) constructed from the highest-quality raw materials. Hollow section profiles come in a
+                    variety of lengths, thicknesses, and weights.
+                </p>
+                <p>
+                    Customers' specifications might also be used to produce the product.
+                </p>
+                <p>
+                    Tubes can be supplied in Bright Annealed/ Semi-bright state in all segments, including Heat
+                    Exchanges, Automobile, Hydraulics, and Fuel Injection.
+                </p>
+                <p>
+                    Heat treatment in a controlled environment extends tube life. Scale-free tubes allow for easy and
+                    smooth fluid movement.
+                </p>
+                <div class="row my-4">
+                    <div class="col-12 col-md-6">
+                        <img src="./images/kristaps-ungurs-Axr0e1-NKLM-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./images/kristaps-ungurs-Axr0e1-NKLM-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="h3 poppins600 mt-5 gold1">
+                    Applications
+                </div>
+                <div class="row my-4">
+                    <div class="col-12 col-md-6">
+                        <ul>
+                            <li>Diesel Locomotive</li>
+                            <li>Car engine</li>
+                            <li>Fuel Pipelines in Diesel Vehicles</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul>
+                            <li>Brake Lines</li>
+                            <li>Clutch</li>
+                            <li>Needle Bearing</li>
+                            <li>CNG Gas kit</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="h3 poppins600 gold1 mt-5">
+                    Manufacturing Range
+                </div>
+                <table class="table table-responsive table-hover">
+                    <tr class="">
+                        <th><b>Outer Diameter</b></th>
+                        <td>4 mm to 65 mm</td>
+                    </tr>
+                    <tr>
+                        <th><b>Thickness</b></th>
+                        <td>0.5 mm to 6 mm</td>
+                    </tr>
+                </table> -->
+                <div class="h3 poppins600 gold1 mt-5">
+                    Grades And Specification
+                </div>
+                <table class="table table-responsive table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Specification</th>
+                            <th>Grades</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>DIN :</th>
+                            <td>2391 : ST-35, ST-45, ST-52, ST-30Al<br>
+                                1629 : ST-37, ST-44, ST-52<br>
+                                1630 : ST-37.4, ST-44.4, ST-52.4</td>
+                        </tr>
+                        <tr>
+                            <th>EN :</th>
+                            <td>10305-1 : E 215, E-235, E-355, E-255<br>
+                                10305-4 : E 215, E-235, E-355<br>
+                                10216-1 : P195 (TR 1,TR 2), P235 (TR 1,TR 2)</td>
+                        </tr>
+                        <tr>
+                            <th>JIS G3445 :</th>
+                            <td>STKM 11A, 12(A,B,C), 13(A,B,C), 14(A,B,C), 15(A,C), 16(A,C)</td>
+                        </tr>
+                        <tr>
+                            <th>IS :</th>
+                            <td>3074 : CDS-1, CDS-2, CDS-3, CDS-4, CDS-5<br>
+                                3601 : CDS-160, CDS-210, CDS-240, CDS-310, CDS-370,<br>
+                                CDS-430, CDS-540</td>
+                        </tr>
+                        <tr>
+                            <th>ASTM A519 :</th>
+                            <td>1008, 1009, 1010, 1012, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1025, 1026, 1030,
+                                1033, 1035, 1040,
+                                1045</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">City</label>
-                <input type="text" name="city" class="form-control">
-            </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Mobile</label>
-                <input type="number" name="mobile" class="form-control">
-            </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Email</label>
-                <input type="text" name="Email" class="form-control">
-            </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Outer Diameter</label>
-                <input type="text" name="outer diameter" class="form-control">
-            </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Thickness</label>
-                <input type="text" name="thickness" class="form-control">
-            </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Length</label>
-                <input type="text" name="Length" class="form-control">
-            </div>
-            <div class="mb-3 my-3">
-                <label class="form-label h5">Message</label>
-                <textarea type="text" rows="4" name="message" class="form-control"></textarea>
-            </div>
-            <button type="submit" class="btn btn-outline-primary px-5 py-2">Submit</button>
-        </form>
-    </div>
+        </div>
     </div>
 
     <footer class="row d-flex justify-content-evenly" style="background-color: black;">
         <div class="col-12 col-md-4 p-3 p-md-5">
             <img src="./images/footerlogo.png" class="img-fluid" height="50" alt="">
-            <p class="text-white mt-3 poppins300" style="text-align:justify;">
+            <p class="text-white mt-3" style="text-align:justify;">
                 Offering a highly reliable & durable range of Carbon Steel Seamless Bright Tubes, Hydraulic Tubes,
                 CS
                 Seamless Tubes, Carbon Steel Pipes, and more.
@@ -122,13 +263,13 @@
                 CARBON STEEL COLD DRAWN SEAMLESS TUBES AND PIPES
             </a><br>
             <img src="./images/shortarrow.svg" alt=""><a class="text-white poppins300" href="">
-                BRIGHT ANNEALED TUBES 
+                BRIGHT ANNEALED TUBES
             </a><br>
             <img src="./images/shortarrow.svg" alt=""><a class="text-white poppins300" href="">
                 AUTOMOBILE TUBES
             </a><br>
             <img src="./images/shortarrow.svg" alt=""><a class="text-white poppins300" href="">
-                FUEL INJECTION TUBES 
+                FUEL INJECTION TUBES
             </a><br>
             <img src="./images/shortarrow.svg" alt=""><a class="text-white poppins300" href="">
                 HYDRAULIC TUBES
@@ -196,7 +337,7 @@
             var xhr = new XMLHttpRequest();
             xhr.open("POST", 'https://nodemailer57.herokuapp.com/', true);
             xhr.setRequestHeader('Content-Type', 'application/json');
-            
+
             xhr.send(JSON.stringify({
                 email,
                 subject,
@@ -210,7 +351,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

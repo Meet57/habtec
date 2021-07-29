@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@100;300;400;600&display=swap');
 
 :root {
     green1: #002309;
@@ -8,7 +8,7 @@
 }
 
 .green1 {
-    color: #002309;
+    color: #003b0f;
 }
 
 .green2 {
@@ -44,6 +44,10 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+.poppins600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 
 .merry400 {
     font-family: 'Merriweather', serif;
@@ -64,7 +68,8 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    color:white;
 }
 
 .row {
@@ -103,4 +108,23 @@ a {
     background-color:#002309c2;
     color: white;
     border-left: 9px solid #ffbf00;
+}
+
+.OurProducts .title{
+    background-color:#002309c2;
+    color: white;
+    border-left: 9px solid #ffbf00;
+}
+
+.OurProducts{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.OurProducts .productlist{
+    color: black;
+}
+
+.OurProducts .productlist:hover{
+    background-color:#19291b;
+    color: white;
 }
