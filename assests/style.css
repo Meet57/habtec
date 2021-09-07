@@ -129,3 +129,14 @@ a {
     background-color:#19291b;
     color: white;
 }
+
+.submitbutton{
+    border-color:#19291b;
+    color: #19291b;
+}
+
+.submitbutton:hover{
+    background-color:#19291b;
+    color: white;
+    border-color:#ffbf00;
+}
