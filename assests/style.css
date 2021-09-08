@@ -44,6 +44,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+
 .poppins600 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -70,7 +71,11 @@
 
 a {
     text-decoration: none !important;
-    color:white;
+    color: white;
+}
+
+a:hover {
+    color: inherit; 
 }
 
 .row {
@@ -105,49 +110,49 @@ a {
     border-width: 2px 0px;
 }
 
-.aboutprofilebox{
-    background-color:#002309c2;
+.aboutprofilebox {
+    background-color: #002309c2;
     color: white;
     border-left: 9px solid #ffbf00;
 }
 
-.OurProducts .title{
-    background-color:#002309c2;
+.OurProducts .title {
+    background-color: #002309c2;
     color: white;
     border-left: 9px solid #ffbf00;
 }
 
-.OurProducts{
+.OurProducts {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.OurProducts .productlist{
+.OurProducts .productlist {
     color: black;
 }
 
-.OurProducts .productlist:hover{
-    background-color:#19291b;
+.OurProducts .productlist:hover {
+    background-color: #19291b;
     color: white;
 }
 
-.submitbutton{
-    border-color:#19291b;
+.submitbutton {
+    border-color: #19291b;
     color: #19291b;
 }
 
-.submitbutton:hover{
-    background-color:#19291b;
+.submitbutton:hover {
+    background-color: #19291b;
     color: white;
-    border-color:#ffbf00;
+    border-color: #ffbf00;
 }
 
-.name{
-    background-color:rgb(58, 58, 58);
+.name {
+    background-color: rgb(58, 58, 58);
     color: white;
     transition: 0.7s ease;
 }
 
-.name:hover{
+.name:hover {
     color: #ffbf00;
     background-color: black;
 }
