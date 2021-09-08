@@ -140,3 +140,13 @@ a {
     color: white;
     border-color:#ffbf00;
 }
+
+.name{
+    background-color:rgb(58, 58, 58);
+    color: white;
+    transition: 0.7s ease;
+}
+
+.name:hover{
+    color: #ffbf00;
+}
